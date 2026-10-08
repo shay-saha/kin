@@ -1,7 +1,4 @@
-//! Runs the Rust gate against the fixtures frozen from the TypeScript gate.
-//! Any decision, reason, or signal that drifts fails loudly and names the case.
-
-use kin_brain::gate::{evaluate_gate, GateInfo, KeeperResult};
+use kin_brain::gate::{GateInfo, KeeperResult, evaluate_gate};
 use serde::Deserialize;
 
 #[derive(Deserialize)]
@@ -22,8 +19,6 @@ struct Fixtures {
     cases: Vec<Case>,
 }
 
-/// Signals are compared with a tolerance because the fixtures round-trip
-/// through JSON; decisions and reasons must match exactly.
 const EPS: f64 = 1e-9;
 
 #[test]
@@ -40,7 +35,11 @@ fn matches_typescript_gate() {
         let want = &case.expected;
 
         let got_json = serde_json::to_value(&got).expect("serialize result");
-        assert_eq!(got_json["reasonCode"], want["reasonCode"], "{}: reasonCode differs", case.name);
+        assert_eq!(
+            got_json["reasonCode"], want["reasonCode"],
+            "{}: reasonCode differs",
+            case.name
+        );
 
         let want_decision = want["decision"].as_str().expect("decision");
         let got_decision = got_json["decision"].as_str().expect("decision");
@@ -74,7 +73,11 @@ fn matches_typescript_gate() {
 
         let list = |v: &serde_json::Value| -> Vec<String> {
             v.as_array()
-                .map(|a| a.iter().filter_map(|s| s.as_str().map(str::to_string)).collect())
+                .map(|a| {
+                    a.iter()
+                        .filter_map(|s| s.as_str().map(str::to_string))
+                        .collect()
+                })
                 .unwrap_or_default()
         };
         for key in ["agreeingKeeperIds", "citedMemoryIds"] {

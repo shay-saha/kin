@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from "node:fs";
 nextEnv.loadEnvConfig(process.cwd());
 const names = ["NEXT_PUBLIC_SUPABASE_URL", "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY", "SUPABASE_SECRET_KEY",
   "OPENAI_API_KEY", "DEEPGRAM_API_KEY", "ELEVENLABS_API_KEY", "ELEVENLABS_VOICE_ID",
-  "KIN_FACE_SERVICE_URL", "KIN_FACE_SERVICE_TOKEN", "KIN_FACE_TOKEN_KEY"];
+  "KIN_FACE_TOKEN_KEY"];
 const aliases = { NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: "NEXT_PUBLIC_SUPABASE_ANON_KEY", SUPABASE_SECRET_KEY: "SUPABASE_SERVICE_ROLE_KEY" };
 console.log(JSON.stringify({ missing: names.filter(n => !process.env[n] && !process.env[aliases[n]]) }));
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -52,7 +52,7 @@ async function main() {
       await client.auth.signOut();
     }
   }
-  if (!schemaReady) console.log(JSON.stringify({ schema: "BLOCKED", action: initialSchemaReady ? "Initial schema exists. Apply any missing migrations through 007 in order; 006 is explicit_api_grants and 007 is self_contribution. Preserve existing family data." : "Apply migrations 001 through 007 in order, then provision and seed." }));
+  if (!schemaReady) console.log(JSON.stringify({ schema: "BLOCKED", action: initialSchemaReady ? "Initial schema exists. Apply any missing migrations through 011 in order; 006 is explicit_api_grants and 007 is self_contribution. Preserve existing family data." : "Apply migrations 001 through 011 in order, then provision and seed." }));
   if (process.env.KIN_FACE_SERVICE_URL && process.env.KIN_FACE_SERVICE_TOKEN) {
     const res = await fetch(process.env.KIN_FACE_SERVICE_URL, { method: "POST", headers: {
       authorization: "Bearer " + process.env.KIN_FACE_SERVICE_TOKEN, "content-type": "image/jpeg",

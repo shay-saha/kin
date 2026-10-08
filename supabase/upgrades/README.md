@@ -14,7 +14,7 @@ creating just `wearer_accounts` does not fix the whole schema.
 2. Run it as one query. It contains its own transaction and schema-cache reload.
 3. Sign out of Kin and sign back in to refresh account claims, then reload Memories.
 
-This file covers main's schema changes through 010, including 009/010. It may be
+This file covers main's schema changes through 011, including the Rust face-model update. It may be
 run after 009 succeeded and 010 failed, and may be retried after a successful run.
 It skips 005, which consolidates demo data. No passwords, accounts, memory rows,
 media objects, original transcripts, IDs, or stored face vectors are deleted.

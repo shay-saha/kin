@@ -1,6 +1,4 @@
-//! Runs the Rust weaver against fixtures frozen from the TypeScript original.
-
-use kin_brain::weaver::{find_gaps, pick_top_gap, route_question, WeaverData};
+use kin_brain::weaver::{WeaverData, find_gaps, pick_top_gap, route_question};
 use serde::Deserialize;
 
 #[derive(Deserialize)]

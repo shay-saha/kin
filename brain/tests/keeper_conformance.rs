@@ -1,6 +1,4 @@
-//! Runs the Rust keeper against fixtures frozen from the TypeScript original.
-
-use kin_brain::keepers::{build_keeper_result, Keeper, KeeperInput};
+use kin_brain::keepers::{Keeper, KeeperInput, build_keeper_result};
 use serde::Deserialize;
 
 #[derive(Deserialize)]

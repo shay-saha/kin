@@ -1,5 +1,19 @@
 # Design decisions
 
+## Rust backend
+
+- Rust owns every application API and auth callback; Next.js forwards requests.
+- Axum and Tokio serve the existing HTTP contracts. Rust calls Supabase Auth,
+  PostgREST, private storage, OpenAI, Deepgram, and ElevenLabs directly.
+- YuNet and SFace run through Tract with a distinct versioned face model. Existing
+  vectors retain their model; migration 011 allows native enrollment. Recognition
+  uses only descriptors from the selected model, so native adoption requires
+  repeat enrollment.
+- Atomic ingestion and self-review continue through the existing database RPCs.
+  SQL migrations and RLS remain database responsibilities.
+- Runtime Rust source contains no comments. Conformance fixtures, HTTP tests,
+  database integration checks, and browser workflows verify the migration.
+
 ## Integration with main
 
 - Preserve main's server-owned, versioned face inference, sealed enrollment

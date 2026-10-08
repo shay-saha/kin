@@ -1,61 +1,67 @@
-//! HTTP front for the Kin brain.
-//!
-//! Exposes standalone gate and Weaver scoring endpoints. The Next.js app
-//! currently runs its TypeScript implementation directly; conformance
-//! fixtures keep this service aligned for future integration.
-
-use std::net::SocketAddr;
-
-use axum::{routing::{get, post}, Json, Router};
-use serde::{Deserialize, Serialize};
-
-use kin_brain::gate::{evaluate_gate, GateInfo, GateResult, KeeperResult};
-use kin_brain::weaver::{find_gaps, pick_top_gap, route_question, Gap, WeaverData};
-
-#[derive(Deserialize)]
-struct GateRequest {
-    results: Vec<KeeperResult>,
-    info: GateInfo,
-}
-
-async fn gate(Json(req): Json<GateRequest>) -> Json<GateResult> {
-    Json(evaluate_gate(&req.results, &req.info))
-}
-
-#[derive(Serialize)]
-struct WeaverResponse {
-    gaps: Vec<Gap>,
-    #[serde(rename = "topGap")]
-    top_gap: Option<Gap>,
-    #[serde(rename = "routedTo")]
-    routed_to: Option<String>,
-}
-
-async fn weaver(Json(data): Json<WeaverData>) -> Json<WeaverResponse> {
-    let top_gap = pick_top_gap(&data);
-    let routed_to = top_gap.as_ref().and_then(|g| route_question(&data, g));
-    Json(WeaverResponse { gaps: find_gaps(&data), top_gap, routed_to })
-}
-
-async fn health() -> Json<serde_json::Value> {
-    Json(serde_json::json!({ "ok": true, "service": "kin-brain" }))
-}
+use kin_brain::{api, database::Database};
 
 #[tokio::main]
-async fn main() {
-    tracing_subscriber::fmt::init();
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let _ = dotenvy::from_filename(".env.local");
+    let _ = dotenvy::dotenv();
+    tracing_subscriber::fmt()
+        .with_env_filter(
+            tracing_subscriber::EnvFilter::try_from_default_env()
+                .unwrap_or_else(|_| "kin_brain=info,tower_http=info".into()),
+        )
+        .init();
+    let db = Database::from_env()?;
+    match std::env::args().nth(1).as_deref() {
+        Some("download-models") => {
+            kin_brain::faces::download_models(&db).await?;
+            return Ok(());
+        }
+        Some("verify-face-models") => {
+            let path = std::env::args().nth(2).ok_or("An image path is required")?;
+            let detections = kin_brain::faces::infer_native(&std::fs::read(path)?)?;
+            println!(
+                "{} faces detected; descriptor lengths: {:?}",
+                detections.len(),
+                detections
+                    .iter()
+                    .map(|face| face.descriptor.len())
+                    .collect::<Vec<_>>()
+            );
+            return Ok(());
+        }
+        Some("seed") => {
+            println!(
+                "{}",
+                kin_brain::admin::seed(&db, kin_brain::admin::DEMO_FAMILY).await?
+            );
+            return Ok(());
+        }
+        Some("provision-demo") => {
+            let _ = dotenvy::from_filename(".env.demo.local");
+            kin_brain::admin::provision_demo(&db, &std::env::var("KIN_DEMO_PASSWORD")?).await?;
+            return Ok(());
+        }
+        Some("demo-audio") => {
+            kin_brain::admin::demo_audio(
+                &db,
+                std::env::args().any(|argument| argument == "--apply"),
+            )
+            .await?;
+            return Ok(());
+        }
+        Some(command) => return Err(format!("Unknown backend command: {command}").into()),
+        None => {}
+    }
+    let bind = std::env::var("KIN_BACKEND_BIND").unwrap_or_else(|_| "127.0.0.1".into());
     let port: u16 = std::env::var("KIN_BRAIN_PORT")
-        .ok()
-        .and_then(|p| p.parse().ok())
-        .unwrap_or(8787);
-
-    let app = Router::new()
-        .route("/health", get(health))
-        .route("/gate", post(gate))
-        .route("/weaver", post(weaver));
-
-    let addr = SocketAddr::from(([127, 0, 0, 1], port));
-    let listener = tokio::net::TcpListener::bind(addr).await.expect("bind");
-    tracing::info!("kin-brain listening on {addr}");
-    axum::serve(listener, app).await.expect("serve");
+        .unwrap_or_else(|_| "8787".into())
+        .parse()?;
+    let listener = tokio::net::TcpListener::bind((bind.as_str(), port)).await?;
+    tracing::info!(address=%listener.local_addr()?,"Kin Rust backend listening");
+    axum::serve(listener, api::router(db))
+        .with_graceful_shutdown(async {
+            let _ = tokio::signal::ctrl_c().await;
+        })
+        .await?;
+    Ok(())
 }

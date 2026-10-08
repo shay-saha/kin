@@ -38,7 +38,7 @@ try {
     create publication supabase_realtime;
   `);
   await test('all numbered migrations apply with real pgvector', async () => {
-    for (const name of ['001_init.sql', '002_atomic_ingestion.sql', '003_family_boundary_and_weaver.sql', '004_wearer_membership.sql', '005_consolidate_hackmit_demo.sql', '006_explicit_api_grants.sql', '007_self_contribution.sql', '008_living_stories.sql', '009_family_accounts.sql', '010_loved_one_invites.sql']) {
+    for (const name of ['001_init.sql', '002_atomic_ingestion.sql', '003_family_boundary_and_weaver.sql', '004_wearer_membership.sql', '005_consolidate_hackmit_demo.sql', '006_explicit_api_grants.sql', '007_self_contribution.sql', '008_living_stories.sql', '009_family_accounts.sql', '010_loved_one_invites.sql', '011_rust_face_models.sql']) {
       await db.exec(await readFile(new URL(`../../supabase/migrations/${name}`, import.meta.url), 'utf8'));
     }
   });
@@ -167,6 +167,19 @@ try {
     await db.query('insert into face_embeddings(id,family_id,contributor_id,person_node_id,memory_id,descriptor) values($1,$2,$3,$4,$5,$6::vector)',
       [uuid(112),'670f5075-c286-4b29-8074-86401c18d0c0',uuid(1),uuid(10),uuid(110),JSON.stringify(Array(128).fill(.01))]);
     assert.equal(await scalar('select count(*)::int as value from face_embeddings where model=$1', [faceModel]), 1);
+  });
+  await test('Rust face-model migration accepts native descriptors, rejects unknown models, and is repeatable', async () => {
+    const nativeModel = 'kin-yunet-2023mar:sface-2021dec:recognition128:rgb-exif-v1';
+    const payload = { id: uuid(113), family_id: '670f5075-c286-4b29-8074-86401c18d0c0', contributor_id: uuid(1), request_hash: 'rust-face', response: { ok: true },
+      source: { type: 'human', consent: true, model: nativeModel },
+      face: { id: uuid(113), family_id: '670f5075-c286-4b29-8074-86401c18d0c0', contributor_id: uuid(1), person_node_id: uuid(10), memory_id: uuid(110), descriptor: Array(128).fill(.01) } };
+    await commit(payload); await commit(payload);
+    assert.equal(await scalar('select model as value from face_embeddings where id=$1', [payload.id]), nativeModel);
+    const unknown = structuredClone(payload); unknown.id=uuid(114); unknown.face.id=uuid(114); unknown.source.model='untrusted-model';
+    await rejectCode(() => commit(unknown), 'P0001');
+    await db.exec(await readFile(new URL('../../supabase/migrations/011_rust_face_models.sql', import.meta.url), 'utf8'));
+    assert.equal(await scalar('select model as value from face_embeddings where id=$1', [uuid(111)]), faceModel);
+    assert.equal(await scalar('select model as value from face_embeddings where id=$1', [payload.id]), nativeModel);
   });
   await test('authenticated family reads isolate other families and reject privileged RPC/descriptors', async () => {
     await db.exec(`set role authenticated; set request.jwt.claims = '{"app_metadata":{"kin_family_id":"other","kin_contributor_id":"${uuid(2)}"}}';`);

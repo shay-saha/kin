@@ -1,57 +1,43 @@
-# Integration verification
+# Rust backend verification
 
-This record covers the full `feature/pull-apart-stories` interface integrated
-with main, including the concurrent Living Stories merge at `35861ca`. Main already contained cherry-picked story-scene commits,
-but its surrounding interface was still the older version.
-
-## Merge boundary
-
-The integration preserves main's inference service, sealed face enrollment,
-atomic ingestion, 0.85/two-Keeper gate, latest retrieval scoring, human fact
-extraction, Memory Atlas, personal recordings/review, canonical demo provisioning,
-Living Stories with timed audio, and Rust sources. Account/session adapters connect the redesigned screens to
-those contracts. The feature branch's older recognition/provider implementation
-is not substituted for main's newer backend.
-
-Migrations 009 and 010 add accounts and invitations after main's 001–008. They
-backfill existing memberships without resetting memories, bridge new loved-one
-accounts to personal recording, and prevent direct biometric reads. Apply them
-to a main-schema database before deploying this interface. No shared database
-migration, seeding, account deletion, or purge was performed during this merge.
+The application backend runs in `brain/src`. Next.js forwards application API
+requests and authentication callbacks to Rust. Supabase remains responsible for
+authentication, PostgreSQL transactions, access policies, storage, and realtime.
+Migration 011 allows versioned Rust-native face enrollments alongside legacy
+descriptors. Existing records are preserved; native recognition requires repeat
+enrollment because descriptors from different models are not interchangeable.
 
 ## Automated checks
 
-- 210 unit/mocked-route tests pass, including cookie/bearer authorization,
-  cancellation of stale audio fallback, and source deletion/receipt invalidation.
-- 25 disposable database checks pass using PostgreSQL WASM and real pgvector:
-  atomicity, retry behavior, family isolation, self-review, new-family creation,
-  loved-one invitation use, descriptor restrictions, and migration reapplication.
-- 61 Chromium browser scenarios pass across the redesigned app and Living Stories.
-- Typecheck, lint and production build pass. Next's lint command emits its
-  deprecation notice; bundling emits existing dependency/cache warnings.
-- Rust's three conformance integration tests pass. No Rust source was modified;
-  this does not establish parity for every newer TypeScript recall behavior.
+- 21 Rust integration tests exercise ingestion, authorization, callbacks, face
+  selection sealing, self-review, grounded recall, deletion, Weaver routing,
+  administration, and domain boundaries. The three conformance tests include
+  83 original gate, Keeper, and Weaver fixture cases.
+- 30 web unit tests pass.
+- 26 disposable database checks pass using PostgreSQL WASM and real pgvector,
+  including native/legacy enrollment restrictions, transactions, isolation,
+  invitations, self-review, migration reapplication, and legacy schema recovery.
+- 64 tracked Chromium browser scenarios pass using Rust behind Next.js and an
+  isolated Supabase HTTP double.
+- Rust formatting, strict Clippy, release compilation, TypeScript checking,
+  frontend lint, and the production Next.js build pass.
+- Native YuNet/SFace inference was run on a sample image and detected three
+  faces with 128-value descriptors. Downloaded artifacts are checksum verified;
+  model licenses are retained in `brain/licenses`.
 
-Eight initial unit failures reproduced on untouched main. The latest main
-retrieval scoring had changed expectations and added a database lookup; test
-fixtures now reflect that behavior without reverting main's scoring changes.
+Provider and HTTP integration tests use isolated doubles with synthetic
+credentials. Browser scenarios exercise navigation, account flows, contribution
+ownership, enrollment retries, recording preview, silence, replay, review,
+organizer controls, story gestures, keyboard access, large text, and accessibility.
+SQL tests check database behavior separately. See README for reproducible commands.
+The pre-existing untracked photo-enrollment draft is not part of the tracked suite.
 
-Browser verification uses a loopback-only Supabase HTTP double and intercepted
-provider/media responses. It exercises actual Next routes, cookies, signup and
-onboarding UI, role-based invitations, contribution ownership, photo enrollment
-retries, deletion, recording preview, silent recall, Atlas, personal review,
-organizer controls, story gestures, keyboard access, large text and accessibility.
-SQL policy behavior is tested separately by the database suite; the HTTP double
-is not a hosted Supabase/RLS implementation. See README for reproducible commands.
+## Checks requiring deployed services or devices
 
-## Checks still requiring real devices/services
+- Confirmation and password-reset email delivery with deployed callback URLs.
+- Paid transcription, extraction, embeddings, and speech with live providers.
+- Recognition accuracy with consented enrolled and unknown faces under varied
+  lighting, camera positions, and image quality.
+- Camera, microphone, gestures, and audio output on physical phones.
 
-- Real iPhone/Safari camera, microphone, gestures and earbud output.
-- Confirmation/password-reset email delivery and deployed callback URLs.
-- Real face inference against consented enrolled and unknown faces, including
-  varied lighting and the intended two-contributor demo.
-- The full timed demo with paid transcription, extraction and speech providers.
-
-Automated fixtures do not establish face-recognition accuracy or clinical
-suitability. No private credentials, biometric fixtures, or recordings are
-included in the integration commit.
+No hosted database migration, demo provisioning, reset, or deployment was performed.

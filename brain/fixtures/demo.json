@@ -1,0 +1,2297 @@
+{
+  "relatives": [
+    {
+      "id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "name": "Maya",
+      "relation_to_wearer": "granddaughter",
+      "color": "#D99B3D"
+    },
+    {
+      "id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "name": "David",
+      "relation_to_wearer": "son",
+      "color": "#397ECC"
+    },
+    {
+      "id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "name": "Elena",
+      "relation_to_wearer": "daughter",
+      "color": "#9967B6"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "person",
+      "label": "Rosa",
+      "aliases": [],
+      "relation_to_wearer": "self",
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "person",
+      "label": "Nora",
+      "aliases": [],
+      "relation_to_wearer": "sister",
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "2991d329-52f2-4aae-aa90-4ff385242978",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "person",
+      "label": "David",
+      "aliases": [],
+      "relation_to_wearer": "son",
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "person",
+      "label": "Elena",
+      "aliases": [],
+      "relation_to_wearer": "daughter",
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "tradition",
+      "label": "Sunday lemon cake",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "object",
+      "label": "The yellow apron",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "a229572b-aae2-461d-88ec-6c45c6bba721",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "object",
+      "label": "Nana’s recipe book",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "be67f744-8179-4ff3-823a-48dd7014c5d8",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "tradition",
+      "label": "Saturday gardening",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "d2efdf1d-ee37-414e-93fd-eba189e0e389",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "place",
+      "label": "Rosa’s garden",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "89cf8b54-679e-4b60-a880-ea0d8bbd9ecc",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "place",
+      "label": "Brighton",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "ccbd0543-c4ae-4902-9bc8-f107ae2cd587",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "tradition",
+      "label": "Summer seaside picnics",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "ea0e45db-9de9-4ab5-a9eb-ae565fe28b27",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "object",
+      "label": "The blue piano",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "tradition",
+      "label": "Friday music nights",
+      "aliases": [],
+      "relation_to_wearer": null,
+      "created_at": "2026-09-20T01:07:11.877696+00:00"
+    },
+    {
+      "id": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "person",
+      "label": "Sam",
+      "aliases": [],
+      "relation_to_wearer": "friend"
+    },
+    {
+      "id": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "place",
+      "label": "community garden",
+      "aliases": [],
+      "relation_to_wearer": null
+    },
+    {
+      "id": "4ef337df-349b-5929-a8a9-26f4e599d01f",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "type": "object",
+      "label": "blue radio",
+      "aliases": [],
+      "relation_to_wearer": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "dead6113-3807-4dbd-892b-bcd2106285e1",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "rel": "sibling_of",
+      "to_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "3fea8666-75d7-49e7-90c2-be8a03b50336",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "participates_in",
+      "to_node": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "bca60e67-1d43-48cc-b510-ff977a4979ff",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "rel": "participates_in",
+      "to_node": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "edd28736-a311-442a-82b4-9fe8b77b5965",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "rel": "wears",
+      "to_node": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "786aea4d-ad12-463b-ad80-41ae399be1de",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "taught_by",
+      "to_node": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "4937626b-01c9-43e0-96a9-d1a35f55d9a2",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "owns",
+      "to_node": "a229572b-aae2-461d-88ec-6c45c6bba721",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "9eab4d56-6930-44c4-b30f-3e1e40771440",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "participates_in",
+      "to_node": "be67f744-8179-4ff3-823a-48dd7014c5d8",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "ea1b58c8-6229-4ca7-b6a6-0bf5a9d4802f",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "2991d329-52f2-4aae-aa90-4ff385242978",
+      "rel": "participates_in",
+      "to_node": "be67f744-8179-4ff3-823a-48dd7014c5d8",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "3284f457-c740-4d1c-81db-5383ca960ec8",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "be67f744-8179-4ff3-823a-48dd7014c5d8",
+      "rel": "located_at",
+      "to_node": "d2efdf1d-ee37-414e-93fd-eba189e0e389",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "85f292cf-16a2-414b-a8ad-640011431544",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "participates_in",
+      "to_node": "ccbd0543-c4ae-4902-9bc8-f107ae2cd587",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "bc1132da-0fbc-476b-abf6-f6e449f36214",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+      "rel": "participates_in",
+      "to_node": "ccbd0543-c4ae-4902-9bc8-f107ae2cd587",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "93636285-49ac-41ff-9e47-7bcdf5fea032",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "ccbd0543-c4ae-4902-9bc8-f107ae2cd587",
+      "rel": "located_at",
+      "to_node": "89cf8b54-679e-4b60-a880-ea0d8bbd9ecc",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "8da172ed-9458-4333-8c96-91a0a4129c78",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "owns",
+      "to_node": "ea0e45db-9de9-4ab5-a9eb-ae565fe28b27",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "ee7eaa7f-4f11-4596-ad38-896d2a54c069",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "rel": "participates_in",
+      "to_node": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "18217ed6-6f2b-4fa0-9dd3-f719bfa2c52b",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+      "rel": "participates_in",
+      "to_node": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "07d05a8e-7d37-49f4-b2a1-fa28646ca5f7",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "2991d329-52f2-4aae-aa90-4ff385242978",
+      "rel": "participates_in",
+      "to_node": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+      "created_at": "2026-09-20T01:07:12.933055+00:00"
+    },
+    {
+      "id": "7505154c-978a-59a0-a802-8abbd5debca3",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "rel": "participates_in",
+      "to_node": "1b0d3e7b-3820-548a-a262-bc4488b81b7b"
+    },
+    {
+      "id": "3f415176-ebeb-562e-ac3b-e1f28469263c",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "from_node": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "rel": "owns",
+      "to_node": "4ef337df-349b-5929-a8a9-26f4e599d01f"
+    }
+  ],
+  "memories": [
+    {
+      "id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "Rosa and Nora baked lemon cake every Sunday. Nora always wore her yellow apron. The kitchen smelled of lemons before we even opened the door.",
+      "caption": null,
+      "summary": "Fictional demo story: Rosa and Nora baked lemon cake every Sunday. Nora always wore her yellow apron. The kitchen smelled of lemons before we even opened the door.",
+      "source_question_id": null,
+      "created_at": "2026-09-11T01:07:11.905+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "80b893d8-053c-57dc-ab87-57b22340ef45",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa and Nora baked lemon cake every Sunday.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 44
+          },
+          "memoryId": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "6f532533-a7db-5ccd-aa85-c9ebfd8d5bd3",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Rosa and Nora baked lemon cake every Sunday.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 44
+          },
+          "memoryId": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "f5462d8e-e21d-5868-a56f-e96334d3fd53",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora always wore her yellow apron.",
+          "sourceSpan": {
+            "start": 45,
+            "end": 79
+          },
+          "memoryId": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ]
+    },
+    {
+      "id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Nora is Rosa’s sister. She taught Rosa to cook when they were girls. They still argued lovingly about how much lemon belonged in the cake.",
+      "caption": null,
+      "summary": "Fictional demo story: Nora is Rosa’s sister. She taught Rosa to cook when they were girls. They still argued lovingly about how much lemon belonged in the cake.",
+      "source_question_id": null,
+      "created_at": "2026-09-12T01:07:12.003+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "5f5edfaa-e6fc-53d9-a461-2ed28ed281ee",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Nora is Rosa’s sister.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 22
+          },
+          "memoryId": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "5d811f05-e570-5f12-a6e6-dc653e659230",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "She taught Rosa to cook when they were girls.",
+          "sourceSpan": {
+            "start": 23,
+            "end": 68
+          },
+          "memoryId": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "3c33c70c-1f9a-563e-a424-125e54092403",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora is Rosa’s sister.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 22
+          },
+          "memoryId": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ]
+    },
+    {
+      "id": "b89dffab-1f73-43f4-abbb-c89a56ee2f3d",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "photo",
+      "transcript": null,
+      "caption": "Demo illustration. Rosa keeps Nana’s recipe book on the kitchen shelf. There are handwritten notes beside the lemon cake recipe.",
+      "summary": "Fictional demo photo: Rosa keeps Nana’s recipe book on the kitchen shelf. There are handwritten notes beside the lemon cake recipe.",
+      "source_question_id": null,
+      "created_at": "2026-09-13T01:07:12.193+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": "Demo illustration. Rosa keeps Nana’s recipe book on the kitchen shelf. There are handwritten notes beside the lemon cake recipe."
+      },
+      "verified_facts": []
+    },
+    {
+      "id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "Rosa and David spent Saturday mornings gardening together in Rosa’s garden. I remember the scent of rosemary and the cups of tea on the step.",
+      "caption": null,
+      "summary": "Fictional demo story: Rosa and David spent Saturday mornings gardening together in Rosa’s garden. I remember the scent of rosemary and the cups of tea on the step.",
+      "source_question_id": null,
+      "created_at": "2026-09-14T01:07:12.261+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "61bd86ad-7e94-5c3a-ab81-db17149b9a10",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa and David spent Saturday mornings gardening together in Rosa’s garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 75
+          },
+          "memoryId": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "7446495a-a3bd-5c6a-aa32-ec964e5b550b",
+          "subjectNodeId": "2991d329-52f2-4aae-aa90-4ff385242978",
+          "text": "Rosa and David spent Saturday mornings gardening together in Rosa’s garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 75
+          },
+          "memoryId": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "5ba4cbfb-9214-5275-aadd-8f86a70a8967",
+          "subjectNodeId": "d2efdf1d-ee37-414e-93fd-eba189e0e389",
+          "text": "Rosa and David spent Saturday mornings gardening together in Rosa’s garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 75
+          },
+          "memoryId": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ]
+    },
+    {
+      "id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "story",
+      "transcript": "Every summer, Rosa and Elena packed a picnic for Brighton. Rosa always insisted we eat the sandwiches before buying an ice cream.",
+      "caption": null,
+      "summary": "Fictional demo story: Every summer, Rosa and Elena packed a picnic for Brighton. Rosa always insisted we eat the sandwiches before buying an ice cream.",
+      "source_question_id": null,
+      "created_at": "2026-09-15T01:07:12.323+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "b838c8e6-4851-54e4-a6db-ac96bbe689ca",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Every summer, Rosa and Elena packed a picnic for Brighton.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 58
+          },
+          "memoryId": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "ff06b163-9a11-5001-a242-e0361730e9b0",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa always insisted we eat the sandwiches before buying an ice cream.",
+          "sourceSpan": {
+            "start": 59,
+            "end": 129
+          },
+          "memoryId": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "9a354f04-242c-58c7-a2cf-289f88e6bbac",
+          "subjectNodeId": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+          "text": "Every summer, Rosa and Elena packed a picnic for Brighton.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 58
+          },
+          "memoryId": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "20f5c797-4860-54e3-a0ef-c8104c8df541",
+          "subjectNodeId": "89cf8b54-679e-4b60-a880-ea0d8bbd9ecc",
+          "text": "Every summer, Rosa and Elena packed a picnic for Brighton.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 58
+          },
+          "memoryId": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        }
+      ]
+    },
+    {
+      "id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "photo",
+      "transcript": null,
+      "caption": "Demo illustration. Nora’s yellow apron hung beside the kitchen door. She wore it whenever she and Rosa baked their Sunday lemon cake.",
+      "summary": "Fictional demo photo: Nora’s yellow apron hung beside the kitchen door. She wore it whenever she and Rosa baked their Sunday lemon cake.",
+      "source_question_id": null,
+      "created_at": "2026-09-16T01:07:12.51+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": "Demo illustration. Nora’s yellow apron hung beside the kitchen door. She wore it whenever she and Rosa baked their Sunday lemon cake."
+      },
+      "verified_facts": []
+    },
+    {
+      "id": "854df5cc-dbba-4e4a-be90-f9ea226c9e49",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "photo",
+      "transcript": null,
+      "caption": "Demo illustration. Rosa’s garden was the setting for our Saturday gardening mornings. There was always a teapot waiting beside the pots.",
+      "summary": "Fictional demo photo: Rosa’s garden was the setting for our Saturday gardening mornings. There was always a teapot waiting beside the pots.",
+      "source_question_id": null,
+      "created_at": "2026-09-17T01:07:12.72+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": "Demo illustration. Rosa’s garden was the setting for our Saturday gardening mornings. There was always a teapot waiting beside the pots."
+      },
+      "verified_facts": []
+    },
+    {
+      "id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Rosa owns the blue piano in the sitting room. On Friday music nights, she played while Elena sang and David tried to keep time.",
+      "caption": null,
+      "summary": "Fictional demo story: Rosa owns the blue piano in the sitting room. On Friday music nights, she played while Elena sang and David tried to keep time.",
+      "source_question_id": null,
+      "created_at": "2026-09-18T01:07:12.799+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "518b43e7-6c53-5bdf-a29f-1280ae111875",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa owns the blue piano in the sitting room.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 45
+          },
+          "memoryId": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "1589d198-337a-53d0-a29e-58ec793fa0b1",
+          "subjectNodeId": "2991d329-52f2-4aae-aa90-4ff385242978",
+          "text": "On Friday music nights, she played while Elena sang and David tried to keep time.",
+          "sourceSpan": {
+            "start": 46,
+            "end": 127
+          },
+          "memoryId": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "87e08c27-b7e0-564d-a7d8-96aa9ff80408",
+          "subjectNodeId": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+          "text": "On Friday music nights, she played while Elena sang and David tried to keep time.",
+          "sourceSpan": {
+            "start": 46,
+            "end": 127
+          },
+          "memoryId": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "2c388b70-e9e2-5e18-a647-0147f645d494",
+          "subjectNodeId": "ea0e45db-9de9-4ab5-a9eb-ae565fe28b27",
+          "text": "Rosa owns the blue piano in the sitting room.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 45
+          },
+          "memoryId": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "a515f5e7-2e5c-50c2-ae11-8ecf776bcb84",
+          "subjectNodeId": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+          "text": "On Friday music nights, she played while Elena sang and David tried to keep time.",
+          "sourceSpan": {
+            "start": 46,
+            "end": 127
+          },
+          "memoryId": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ]
+    },
+    {
+      "id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "story",
+      "transcript": "Friday music nights began with Rosa at the blue piano. Elena knew every chorus. I was allowed to choose the very last song.",
+      "caption": null,
+      "summary": "Fictional demo story: Friday music nights began with Rosa at the blue piano. Elena knew every chorus. I was allowed to choose the very last song.",
+      "source_question_id": null,
+      "created_at": "2026-09-19T01:07:12.855+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "638e4a7c-74c1-5952-af11-75d8a377238a",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Friday music nights began with Rosa at the blue piano.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 54
+          },
+          "memoryId": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "811d0de2-d455-5a78-a027-d2bc8478fcd4",
+          "subjectNodeId": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+          "text": "Elena knew every chorus.",
+          "sourceSpan": {
+            "start": 55,
+            "end": 79
+          },
+          "memoryId": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "b7f4229b-d4ea-5491-af50-96dd99d75ce7",
+          "subjectNodeId": "ea0e45db-9de9-4ab5-a9eb-ae565fe28b27",
+          "text": "Friday music nights began with Rosa at the blue piano.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 54
+          },
+          "memoryId": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "cef08ed0-aec7-5ac2-a127-44c3d960e5f5",
+          "subjectNodeId": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+          "text": "Friday music nights began with Rosa at the blue piano.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 54
+          },
+          "memoryId": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        }
+      ]
+    },
+    {
+      "id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "This is Aunt Nora. Grandma and Nora used to bake lemon cake every Sunday. Nora always wore that ridiculous yellow apron.",
+      "caption": null,
+      "summary": "Maya shared a story: Grandma Rosa and Nora used to bake lemon cake every Sunday, and Nora always wore a yellow apron.",
+      "source_question_id": null,
+      "created_at": "2026-09-20T02:24:35.825439+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "bf3aa1dc-7b50-5f73-a899-cf45bf27022f",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "This is Aunt Nora.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 18
+          },
+          "memoryId": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "4842c18f-3032-5866-ad79-85fd2d1785ac",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Grandma and Nora used to bake lemon cake every Sunday.",
+          "sourceSpan": {
+            "start": 19,
+            "end": 73
+          },
+          "memoryId": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "b311b0ba-d9fa-5ca2-a5f0-a1974cf971de",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora always wore that ridiculous yellow apron.",
+          "sourceSpan": {
+            "start": 74,
+            "end": 120
+          },
+          "memoryId": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ]
+    },
+    {
+      "id": "715b9b03-500f-4486-b731-539d659ee45a",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Nora taught Mom how to cook when they were girls. Nora lived two streets away for forty years.",
+      "caption": null,
+      "summary": "Elena shared a story: Nora taught Rosa how to cook when they were girls, and Nora lived two streets away for forty years.",
+      "source_question_id": null,
+      "created_at": "2026-09-20T02:24:35.825439+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "09da3b33-7971-5dbb-a444-aa7517a7bc54",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora taught Mom how to cook when they were girls.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 49
+          },
+          "memoryId": "715b9b03-500f-4486-b731-539d659ee45a",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "6eeb312f-3d45-5164-a5c0-ce2ec8a6a562",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora lived two streets away for forty years.",
+          "sourceSpan": {
+            "start": 50,
+            "end": 94
+          },
+          "memoryId": "715b9b03-500f-4486-b731-539d659ee45a",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ]
+    },
+    {
+      "id": "c601c94f-d68f-4b50-bba8-d2fc0ac4964d",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "photo",
+      "transcript": null,
+      "caption": "A recipe book on a kitchen shelf",
+      "summary": "David shared a photo of Nana's recipe book on the kitchen shelf.",
+      "source_question_id": null,
+      "created_at": "2026-09-20T02:24:35.825439+00:00",
+      "media_path": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "preserved shared HackMIT fictional demo",
+        "caption": "A recipe book on a kitchen shelf"
+      },
+      "verified_facts": []
+    },
+    {
+      "id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "This is Aunt Nora. Grandma and Nora used to bake lemon cake every Sunday. Nora always wore a yellow apron.",
+      "summary": "This is Aunt Nora. Grandma and Nora used to bake lemon cake every Sunday. Nora always wore a yellow apron.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "fe55d96a-6039-59ff-ae99-8d3248a564b1",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Grandma and Nora used to bake lemon cake every Sunday.",
+          "sourceSpan": {
+            "start": 19,
+            "end": 73
+          },
+          "memoryId": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "626a6acd-280e-5dd0-aacf-378dc29abb0a",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "This is Aunt Nora.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 18
+          },
+          "memoryId": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "2bc30a9a-20fa-5c65-a6e0-55621606da8e",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Grandma and Nora used to bake lemon cake every Sunday.",
+          "sourceSpan": {
+            "start": 19,
+            "end": 73
+          },
+          "memoryId": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "f5013e35-5787-5772-acf5-7faa754a9133",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora always wore a yellow apron.",
+          "sourceSpan": {
+            "start": 74,
+            "end": 106
+          },
+          "memoryId": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "06717ed5-f5e6-5cba-ad7d-3b49685b2d40",
+          "subjectNodeId": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+          "text": "Grandma and Nora used to bake lemon cake every Sunday.",
+          "sourceSpan": {
+            "start": 19,
+            "end": 73
+          },
+          "memoryId": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "01d46e28-2c57-52aa-a8bf-9691855e69d7",
+          "subjectNodeId": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+          "text": "Nora always wore a yellow apron.",
+          "sourceSpan": {
+            "start": 74,
+            "end": 106
+          },
+          "memoryId": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Nora is Rosa's sister. Nora taught Rosa how to cook when they were girls. Nora lived two streets away for forty years.",
+      "summary": "Nora is Rosa's sister. Nora taught Rosa how to cook when they were girls. Nora lived two streets away for forty years.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "4edfd1af-6083-501c-abc5-5ba8fdf3b6a5",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora is Rosa's sister.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 22
+          },
+          "memoryId": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "e26d08cc-dd22-504f-a132-c4faa461bc03",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora taught Rosa how to cook when they were girls.",
+          "sourceSpan": {
+            "start": 23,
+            "end": 73
+          },
+          "memoryId": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "e933a47b-d739-5d47-a46e-42a2ad9dc135",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora lived two streets away for forty years.",
+          "sourceSpan": {
+            "start": 74,
+            "end": 118
+          },
+          "memoryId": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "75555949-5f91-5366-a33d-127940e2618d",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Nora is Rosa's sister.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 22
+          },
+          "memoryId": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "1cda88d7-2bdf-52d2-ab55-994fb9f800f1",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Nora taught Rosa how to cook when they were girls.",
+          "sourceSpan": {
+            "start": 23,
+            "end": 73
+          },
+          "memoryId": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "abcd6657-c88b-5134-a124-395fd400fc6d",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "story",
+      "transcript": "Rosa keeps Nana's recipe book on the kitchen shelf. I remember the blue ribbon tucked inside the recipe book.",
+      "summary": "Rosa keeps Nana's recipe book on the kitchen shelf. I remember the blue ribbon tucked inside the recipe book.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "0a2306e3-80fd-5e4d-ab51-cc82ca9609fb",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa keeps Nana's recipe book on the kitchen shelf.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 51
+          },
+          "memoryId": "abcd6657-c88b-5134-a124-395fd400fc6d",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "a4b8de50-1b1b-5b14-aa08-192dab93c16a",
+          "subjectNodeId": "a229572b-aae2-461d-88ec-6c45c6bba721",
+          "text": "Rosa keeps Nana's recipe book on the kitchen shelf.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 51
+          },
+          "memoryId": "abcd6657-c88b-5134-a124-395fd400fc6d",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "3be6420d-935d-5d86-a722-16d1827bb98e",
+          "subjectNodeId": "a229572b-aae2-461d-88ec-6c45c6bba721",
+          "text": "I remember the blue ribbon tucked inside the recipe book.",
+          "sourceSpan": {
+            "start": 52,
+            "end": 109
+          },
+          "memoryId": "abcd6657-c88b-5134-a124-395fd400fc6d",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "Nora likes to put fresh lemon zest into lemon cake. Nora and Rosa laughed together in the kitchen on Sundays.",
+      "summary": "Nora likes to put fresh lemon zest into lemon cake. Nora and Rosa laughed together in the kitchen on Sundays.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "40651377-c317-5743-ae1d-b7470d36b0fc",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora likes to put fresh lemon zest into lemon cake.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 51
+          },
+          "memoryId": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "41512d95-df85-50b4-a75d-0388a4f653f7",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora and Rosa laughed together in the kitchen on Sundays.",
+          "sourceSpan": {
+            "start": 52,
+            "end": 109
+          },
+          "memoryId": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "281d3292-8556-589f-aa67-48974e4623ff",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Nora and Rosa laughed together in the kitchen on Sundays.",
+          "sourceSpan": {
+            "start": 52,
+            "end": 109
+          },
+          "memoryId": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "486257b9-969a-5107-abbf-243bc12f0d81",
+          "subjectNodeId": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+          "text": "Nora likes to put fresh lemon zest into lemon cake.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 51
+          },
+          "memoryId": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "613bde02-dad8-5de0-a11a-20701ba817f6",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Nora wears the yellow apron when she bakes. Nora shares lemon cake with Rosa on Sundays.",
+      "summary": "Nora wears the yellow apron when she bakes. Nora shares lemon cake with Rosa on Sundays.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "d46a38b3-6be3-51ce-a320-b4576cd8c411",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora wears the yellow apron when she bakes.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 43
+          },
+          "memoryId": "613bde02-dad8-5de0-a11a-20701ba817f6",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "66eae75f-3def-59ef-a887-d14e2d0ab711",
+          "subjectNodeId": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+          "text": "Nora shares lemon cake with Rosa on Sundays.",
+          "sourceSpan": {
+            "start": 44,
+            "end": 88
+          },
+          "memoryId": "613bde02-dad8-5de0-a11a-20701ba817f6",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "1ba3a337-51da-52dc-a0a5-099583a3d584",
+          "subjectNodeId": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+          "text": "Nora wears the yellow apron when she bakes.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 43
+          },
+          "memoryId": "613bde02-dad8-5de0-a11a-20701ba817f6",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "37fceb74-5c52-534b-a6a6-bc7dc9d5b36d",
+          "subjectNodeId": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+          "text": "Nora shares lemon cake with Rosa on Sundays.",
+          "sourceSpan": {
+            "start": 44,
+            "end": 88
+          },
+          "memoryId": "613bde02-dad8-5de0-a11a-20701ba817f6",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "70f980a5-63c5-5f98-a4a3-3eaec692fa73",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Nora shares lemon cake with Rosa on Sundays.",
+          "sourceSpan": {
+            "start": 44,
+            "end": 88
+          },
+          "memoryId": "613bde02-dad8-5de0-a11a-20701ba817f6",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "925e6ca1-a558-5075-a551-92b736a780cc",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "story",
+      "transcript": "Nana's recipe book has a worn brown cover. Rosa keeps the recipe book dry and away from the sink.",
+      "summary": "Nana's recipe book has a worn brown cover. Rosa keeps the recipe book dry and away from the sink.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "86913d1e-83fe-5957-a5c8-28be2934a98d",
+          "subjectNodeId": "a229572b-aae2-461d-88ec-6c45c6bba721",
+          "text": "Nana's recipe book has a worn brown cover.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 42
+          },
+          "memoryId": "925e6ca1-a558-5075-a551-92b736a780cc",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "cf110cff-6239-515e-aba7-897d19bad6ff",
+          "subjectNodeId": "a229572b-aae2-461d-88ec-6c45c6bba721",
+          "text": "Rosa keeps the recipe book dry and away from the sink.",
+          "sourceSpan": {
+            "start": 43,
+            "end": 97
+          },
+          "memoryId": "925e6ca1-a558-5075-a551-92b736a780cc",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "367e3367-74a0-51ff-afe5-e1d0ba8fc299",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa keeps the recipe book dry and away from the sink.",
+          "sourceSpan": {
+            "start": 43,
+            "end": 97
+          },
+          "memoryId": "925e6ca1-a558-5075-a551-92b736a780cc",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "Sam grows tomatoes in the community garden. Sam carries a green watering can.",
+      "summary": "Sam grows tomatoes in the community garden. Sam carries a green watering can.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "348dfe63-58fb-55a1-ace8-306009f5e217",
+          "subjectNodeId": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+          "text": "Sam grows tomatoes in the community garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 43
+          },
+          "memoryId": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "f9bd266b-7678-58f8-a0ed-175b1f466c91",
+          "subjectNodeId": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+          "text": "Sam carries a green watering can.",
+          "sourceSpan": {
+            "start": 44,
+            "end": 77
+          },
+          "memoryId": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        },
+        {
+          "id": "6da1bea9-d761-5d4c-aec6-8d289bf7b86a",
+          "subjectNodeId": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+          "text": "Sam grows tomatoes in the community garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 43
+          },
+          "memoryId": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Sam brings a blue radio to the community garden. Sam owns the blue radio.",
+      "summary": "Sam brings a blue radio to the community garden. Sam owns the blue radio.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "3f3db5f9-c5e1-5c84-a54b-f856e86c3967",
+          "subjectNodeId": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+          "text": "Sam brings a blue radio to the community garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 48
+          },
+          "memoryId": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "1a188799-55df-5c24-aba3-53d4a584cdaa",
+          "subjectNodeId": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+          "text": "Sam owns the blue radio.",
+          "sourceSpan": {
+            "start": 49,
+            "end": 73
+          },
+          "memoryId": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "1a1d4ef3-dd30-55e3-a79d-6185fd0cff22",
+          "subjectNodeId": "4ef337df-349b-5929-a8a9-26f4e599d01f",
+          "text": "Sam brings a blue radio to the community garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 48
+          },
+          "memoryId": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "c912e1a9-9337-57cf-a6a0-dcb6e4afcc02",
+          "subjectNodeId": "4ef337df-349b-5929-a8a9-26f4e599d01f",
+          "text": "Sam owns the blue radio.",
+          "sourceSpan": {
+            "start": 49,
+            "end": 73
+          },
+          "memoryId": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        },
+        {
+          "id": "f7ac51bd-2649-50b4-aa26-684228382c68",
+          "subjectNodeId": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+          "text": "Sam brings a blue radio to the community garden.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 48
+          },
+          "memoryId": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "5b0aa6b2-cf96-5c3a-a40f-f0290f91abe4",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "story",
+      "transcript": "Sam repairs the blue radio on quiet afternoons.",
+      "summary": "Sam repairs the blue radio on quiet afternoons.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "164495e6-9125-59bb-a841-72353bf1ba1c",
+          "subjectNodeId": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+          "text": "Sam repairs the blue radio on quiet afternoons.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 47
+          },
+          "memoryId": "5b0aa6b2-cf96-5c3a-a40f-f0290f91abe4",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "ed4c0590-5c6f-5ee0-a346-4d0d70e9f9f8",
+          "subjectNodeId": "4ef337df-349b-5929-a8a9-26f4e599d01f",
+          "text": "Sam repairs the blue radio on quiet afternoons.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 47
+          },
+          "memoryId": "5b0aa6b2-cf96-5c3a-a40f-f0290f91abe4",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "c11af31a-76a0-501f-ad17-2f9835168b71",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "kind": "story",
+      "transcript": "Rosa enjoys watching the birds outside the kitchen window.",
+      "summary": "Rosa enjoys watching the birds outside the kitchen window.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "ffa154aa-f3af-50d6-a834-7286ebcf72b3",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa enjoys watching the birds outside the kitchen window.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 58
+          },
+          "memoryId": "c11af31a-76a0-501f-ad17-2f9835168b71",
+          "contributorId": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "f974e12d-4162-5f57-a1e5-2da5e09bd47e",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "kind": "story",
+      "transcript": "Rosa likes red tulips beside the front door.",
+      "summary": "Rosa likes red tulips beside the front door.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "7c78726f-71d8-5cb9-ad9e-d5c18a5ab44c",
+          "subjectNodeId": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+          "text": "Rosa likes red tulips beside the front door.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 44
+          },
+          "memoryId": "f974e12d-4162-5f57-a1e5-2da5e09bd47e",
+          "contributorId": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": "d1e2bb3a-2f7a-5d90-a8e2-403a06cde2e9",
+      "family_id": "670f5075-c286-4b29-8074-86401c18d0c0",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "kind": "story",
+      "transcript": "Sam waters the community garden before breakfast.",
+      "summary": "Sam waters the community garden before breakfast.",
+      "media_path": null,
+      "caption": null,
+      "source_question_id": null,
+      "source": {
+        "type": "human",
+        "reenacted": true,
+        "origin": "user-authorized P0 demo script",
+        "caption": ""
+      },
+      "verified_facts": [
+        {
+          "id": "25c87db4-94a4-5596-a748-01b9252e2b07",
+          "subjectNodeId": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+          "text": "Sam waters the community garden before breakfast.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 49
+          },
+          "memoryId": "d1e2bb3a-2f7a-5d90-a8e2-403a06cde2e9",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        },
+        {
+          "id": "5168d134-04b9-5c0b-a152-0a52d1d834ce",
+          "subjectNodeId": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+          "text": "Sam waters the community garden before breakfast.",
+          "sourceSpan": {
+            "start": 0,
+            "end": 49
+          },
+          "memoryId": "d1e2bb3a-2f7a-5d90-a8e2-403a06cde2e9",
+          "contributorId": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+        }
+      ],
+      "created_at": "2026-09-19T12:00:00Z"
+    }
+  ],
+  "provenance": [
+    {
+      "id": "e27b18f7-3bb6-40b3-b94f-bea590655168",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "db89b909-0d75-4b5e-bc45-62275bd251d9",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "beb2d3cc-6f14-44f6-a4fc-e0a39c02e8bb",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "74195394-8a58-4199-8437-e2fc5c8f496a",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "df451b68-b3d6-4f14-ae61-40972b74b65d",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": null,
+      "edge_id": "dead6113-3807-4dbd-892b-bcd2106285e1",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "23c27531-cf0d-46d4-9a38-c81365e1d01d",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": null,
+      "edge_id": "3fea8666-75d7-49e7-90c2-be8a03b50336",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "8d6de0eb-cf2f-48b5-965f-f810f646035b",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": null,
+      "edge_id": "bca60e67-1d43-48cc-b510-ff977a4979ff",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "6af6a17a-ed5b-41b2-84f4-613eab81c854",
+      "memory_id": "fc33e86a-1fa4-4d60-8843-5dd259f548f4",
+      "node_id": null,
+      "edge_id": "edd28736-a311-442a-82b4-9fe8b77b5965",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "5e0fcc1b-9968-40de-93c0-cfbd1bea4d9b",
+      "memory_id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "2e87c5ea-f39a-4ac3-8585-7106e6b23e21",
+      "memory_id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "4d2557f8-a4be-4165-970f-aa4d12dfa635",
+      "memory_id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "2af172eb-0f64-467d-bce7-c8a089cea22c",
+      "memory_id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "node_id": null,
+      "edge_id": "dead6113-3807-4dbd-892b-bcd2106285e1",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "9a00c0e6-fa95-4a0c-b553-47e8fc51ecde",
+      "memory_id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "node_id": null,
+      "edge_id": "3fea8666-75d7-49e7-90c2-be8a03b50336",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "dffefb24-aab5-4aec-a005-b6adda4d8a8d",
+      "memory_id": "c8d9b61e-cfcd-4fd0-b527-ed92740762db",
+      "node_id": null,
+      "edge_id": "786aea4d-ad12-463b-ad80-41ae399be1de",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "985b4329-e719-4165-81c5-3a8d57d95cdc",
+      "memory_id": "b89dffab-1f73-43f4-abbb-c89a56ee2f3d",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "21ae73f5-1988-4244-b464-1f70d1a9f4d6",
+      "memory_id": "b89dffab-1f73-43f4-abbb-c89a56ee2f3d",
+      "node_id": "a229572b-aae2-461d-88ec-6c45c6bba721",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "e8f3f257-ea41-4814-985b-0a4157ce051d",
+      "memory_id": "b89dffab-1f73-43f4-abbb-c89a56ee2f3d",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "9e2f1817-f9df-423f-838b-101efe5fc01d",
+      "memory_id": "b89dffab-1f73-43f4-abbb-c89a56ee2f3d",
+      "node_id": null,
+      "edge_id": "4937626b-01c9-43e0-96a9-d1a35f55d9a2",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "3283bffa-5095-416c-9910-b755a34d17ba",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "6739a095-fc55-40bc-a84f-dc680ee3b928",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": "2991d329-52f2-4aae-aa90-4ff385242978",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "620a4e23-ce57-48b7-9c79-649930e763bc",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": "be67f744-8179-4ff3-823a-48dd7014c5d8",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "4328c0af-54e3-4831-b0cf-2cda186afafa",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": "d2efdf1d-ee37-414e-93fd-eba189e0e389",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "19d6307a-11f8-4fd8-938e-bc1145ff49aa",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": null,
+      "edge_id": "9eab4d56-6930-44c4-b30f-3e1e40771440",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "6b4da5dd-0932-4328-9ead-fe39b263d824",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": null,
+      "edge_id": "ea1b58c8-6229-4ca7-b6a6-0bf5a9d4802f",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "4003fcfa-88a0-4fb2-8b34-9f3d3208c137",
+      "memory_id": "fb0f8bea-67dc-4ab5-9999-7131d94950e8",
+      "node_id": null,
+      "edge_id": "3284f457-c740-4d1c-81db-5383ca960ec8",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "fd4d8ddb-de98-4a15-8157-186e6605e179",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "bbae29e9-9b9b-4d68-b585-a8c04f98e500",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "a8d7d0e7-9d1f-4f54-9d2d-8ba9ba09368f",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": "89cf8b54-679e-4b60-a880-ea0d8bbd9ecc",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "344d9dd8-7b62-41be-b54e-c6e6d688650a",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": "ccbd0543-c4ae-4902-9bc8-f107ae2cd587",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "1b9e97c9-e33a-4068-b0a9-ce9c3299c4bc",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": null,
+      "edge_id": "85f292cf-16a2-414b-a8ad-640011431544",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "4baa1dc2-0514-4972-819c-2c0aedfa3ded",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": null,
+      "edge_id": "bc1132da-0fbc-476b-abf6-f6e449f36214",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "5ef85d3d-d1f9-4dad-8906-566dd6d9e88d",
+      "memory_id": "2a316cc4-5263-4e6a-a9d6-6cb4b4e2230a",
+      "node_id": null,
+      "edge_id": "93636285-49ac-41ff-9e47-7bcdf5fea032",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "da84a298-260d-4e07-92ac-95b21ec4dbbc",
+      "memory_id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "db26d85e-e948-499a-a50b-b69df3832a2f",
+      "memory_id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "node_id": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "5034a588-cf7e-4514-a953-109e55eae8fa",
+      "memory_id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "e2199b56-9236-48c4-8712-60f2d0ac70ce",
+      "memory_id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "bd0ef1d9-95d7-45b7-b1a4-15e3c3c1c69c",
+      "memory_id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "node_id": null,
+      "edge_id": "bca60e67-1d43-48cc-b510-ff977a4979ff",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "3653ccda-3161-4518-ba33-b918db74f0ef",
+      "memory_id": "e4d77e87-5988-422a-a84e-4f9b032c2f02",
+      "node_id": null,
+      "edge_id": "edd28736-a311-442a-82b4-9fe8b77b5965",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "2cd6f709-8c07-4533-a061-c09f74c27893",
+      "memory_id": "854df5cc-dbba-4e4a-be90-f9ea226c9e49",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "88169407-ffb6-4021-b8f3-34183a3283ef",
+      "memory_id": "854df5cc-dbba-4e4a-be90-f9ea226c9e49",
+      "node_id": "d2efdf1d-ee37-414e-93fd-eba189e0e389",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "7134db4e-87a5-427d-90ac-a47d98eab90b",
+      "memory_id": "854df5cc-dbba-4e4a-be90-f9ea226c9e49",
+      "node_id": "be67f744-8179-4ff3-823a-48dd7014c5d8",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "4960bf80-da66-4006-aa62-3440323bd4b1",
+      "memory_id": "854df5cc-dbba-4e4a-be90-f9ea226c9e49",
+      "node_id": null,
+      "edge_id": "3284f457-c740-4d1c-81db-5383ca960ec8",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "aeed1901-c5dd-4ee8-85dd-bec57a235f0b",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "db887942-55e1-4351-a0c9-5b8b3f6f7fe9",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": "ea0e45db-9de9-4ab5-a9eb-ae565fe28b27",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "0cfb993f-2922-4938-8fed-5a8bf3180ada",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "0b0854e2-0042-40d7-b630-ef672c0ce29c",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "a958cedd-91be-475f-929a-997cd39eef28",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": "2991d329-52f2-4aae-aa90-4ff385242978",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "bdbfddd3-a207-4f60-90ec-f983a1cac468",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": null,
+      "edge_id": "8da172ed-9458-4333-8c96-91a0a4129c78",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "5b47c77f-9c20-4f76-bbf7-9857a999fcff",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": null,
+      "edge_id": "ee7eaa7f-4f11-4596-ad38-896d2a54c069",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "b0fd60a5-c503-4289-b3cf-3015f7eacb3a",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": null,
+      "edge_id": "18217ed6-6f2b-4fa0-9dd3-f719bfa2c52b",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "867cf353-221d-4e02-a6e5-d8d188b2607a",
+      "memory_id": "f8f705c8-3970-4c79-a25c-dd09ebe4eec7",
+      "node_id": null,
+      "edge_id": "07d05a8e-7d37-49f4-b2a1-fa28646ca5f7",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "c9782b56-6810-406f-84de-5e755466f21a",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "ac4161e1-3538-4290-b16a-29819744d66a",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": "ea0e45db-9de9-4ab5-a9eb-ae565fe28b27",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "43bb2f67-e4da-4a6b-81cf-392a6a5f1bef",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": "24ab8de4-f9af-48a8-a5d3-ee67a595b795",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "87939fed-28bd-41ab-8b65-479489227fc7",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": "f6d34e11-ba01-40f4-b0c7-83714bf7e104",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "844351ba-0df0-43dd-89af-9fd23a6895fa",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": "2991d329-52f2-4aae-aa90-4ff385242978",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "54b1bd54-2927-4a90-859c-bb10da6dca8e",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": null,
+      "edge_id": "ee7eaa7f-4f11-4596-ad38-896d2a54c069",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "f710fe55-9be2-418c-8c64-4d92530ad3cb",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": null,
+      "edge_id": "18217ed6-6f2b-4fa0-9dd3-f719bfa2c52b",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "53e18ddc-8788-43cf-84d9-3e357306e511",
+      "memory_id": "815e2d19-dc5d-4963-9580-a21ca1294e61",
+      "node_id": null,
+      "edge_id": "07d05a8e-7d37-49f4-b2a1-fa28646ca5f7",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "519287ad-096c-423d-a19b-1c8e0f21a8a4",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "a59e96a5-95b4-4bf8-8e13-4eb02e658ea2",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "46df5599-cbb3-4947-aebb-342c249b3f21",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "4a97d0b1-cad6-413e-95d1-c55bc0d20347",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "edge_id": null,
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "77af4afe-3b9d-48bc-9048-b5e4603a4118",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": null,
+      "edge_id": "3fea8666-75d7-49e7-90c2-be8a03b50336",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "1dca4ac8-90c7-419a-8f13-029da7ea887c",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": null,
+      "edge_id": "bca60e67-1d43-48cc-b510-ff977a4979ff",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "39f9a98c-90a3-416e-8260-211adc1a5807",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": null,
+      "edge_id": "dead6113-3807-4dbd-892b-bcd2106285e1",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "0e851ace-f08b-4146-a8ab-c0314a0fe5ff",
+      "memory_id": "b2021d38-1483-4e92-93bf-87c9dbed949b",
+      "node_id": null,
+      "edge_id": "edd28736-a311-442a-82b4-9fe8b77b5965",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289"
+    },
+    {
+      "id": "41a59834-baf7-48ff-a597-5e9ea35b50d9",
+      "memory_id": "715b9b03-500f-4486-b731-539d659ee45a",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "656c9834-8d3c-43e0-8e28-f7799ce3960c",
+      "memory_id": "715b9b03-500f-4486-b731-539d659ee45a",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "65db80fc-d553-4c6a-b5c5-185b72a360be",
+      "memory_id": "715b9b03-500f-4486-b731-539d659ee45a",
+      "node_id": null,
+      "edge_id": "786aea4d-ad12-463b-ad80-41ae399be1de",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+    },
+    {
+      "id": "31704add-e444-49c9-bc43-af25318be701",
+      "memory_id": "c601c94f-d68f-4b50-bba8-d2fc0ac4964d",
+      "node_id": "a229572b-aae2-461d-88ec-6c45c6bba721",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "ba6813a9-1a4e-4fdb-b112-3a110e45ed62",
+      "memory_id": "c601c94f-d68f-4b50-bba8-d2fc0ac4964d",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null,
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "16417ef2-10b7-4323-856d-bceaecbb24a0",
+      "memory_id": "c601c94f-d68f-4b50-bba8-d2fc0ac4964d",
+      "node_id": null,
+      "edge_id": "4937626b-01c9-43e0-96a9-d1a35f55d9a2",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49"
+    },
+    {
+      "id": "ec82c8ec-d32a-5c97-aec4-7871579872b3",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "cf12d939-881b-5ddc-aa89-64ef3e09c7b5",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null
+    },
+    {
+      "id": "ef51aef7-dec2-5e7d-a88d-56ac4834f3b8",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null
+    },
+    {
+      "id": "db1aa986-c949-5135-aec6-a2f81c407cc9",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "edge_id": null
+    },
+    {
+      "id": "126f8c53-f6a1-5169-a430-2d1528c59474",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": null,
+      "edge_id": "3fea8666-75d7-49e7-90c2-be8a03b50336"
+    },
+    {
+      "id": "0092befe-35d0-5a8b-ab7d-0027d2f5d1cf",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": null,
+      "edge_id": "bca60e67-1d43-48cc-b510-ff977a4979ff"
+    },
+    {
+      "id": "e63f2722-bfc2-5ada-a1df-9d930735b291",
+      "memory_id": "cd402ede-2f73-5b80-a230-1d9a733eb7cb",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": null,
+      "edge_id": "edd28736-a311-442a-82b4-9fe8b77b5965"
+    },
+    {
+      "id": "ea8ded4f-b339-5f71-a060-ffd9e8516a42",
+      "memory_id": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null
+    },
+    {
+      "id": "8b4113d5-f219-501d-a2f3-e9aac9e65288",
+      "memory_id": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "277bc626-b5c6-56c6-ad81-f1b73772f3d0",
+      "memory_id": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": null,
+      "edge_id": "dead6113-3807-4dbd-892b-bcd2106285e1"
+    },
+    {
+      "id": "11c71434-aa43-5b8a-a9cd-0cee286d79a8",
+      "memory_id": "5658861d-40a2-5f3a-a694-2714dbf13f80",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": null,
+      "edge_id": "786aea4d-ad12-463b-ad80-41ae399be1de"
+    },
+    {
+      "id": "136383ed-7aff-5f14-a9e6-c69ca576c002",
+      "memory_id": "abcd6657-c88b-5134-a124-395fd400fc6d",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "a72ed258-39a7-556f-a407-f419fb29edaf",
+      "memory_id": "abcd6657-c88b-5134-a124-395fd400fc6d",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "a229572b-aae2-461d-88ec-6c45c6bba721",
+      "edge_id": null
+    },
+    {
+      "id": "0912ef90-da49-5653-a816-a5a8fb90ad58",
+      "memory_id": "abcd6657-c88b-5134-a124-395fd400fc6d",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": null,
+      "edge_id": "4937626b-01c9-43e0-96a9-d1a35f55d9a2"
+    },
+    {
+      "id": "27a24504-91ec-5927-a763-793544151840",
+      "memory_id": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null
+    },
+    {
+      "id": "4571a514-c12e-5d7a-a702-e4007d837782",
+      "memory_id": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "26c4f6ed-4705-5017-a894-d0679d2fd258",
+      "memory_id": "e555cd85-c190-5b5b-abdf-5fd96a472401",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null
+    },
+    {
+      "id": "6ed7fdea-2c64-5476-a030-d250fec7f381",
+      "memory_id": "613bde02-dad8-5de0-a11a-20701ba817f6",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "bd47d22a-bbfb-4e86-9377-34338a2078fc",
+      "edge_id": null
+    },
+    {
+      "id": "6bb06840-9f6f-5a40-adf1-ff36262cdfd2",
+      "memory_id": "613bde02-dad8-5de0-a11a-20701ba817f6",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "911ceea9-9471-4f3e-9104-e6d27948f1a5",
+      "edge_id": null
+    },
+    {
+      "id": "58aebc5d-9132-5cba-aeef-4ff0a43a640b",
+      "memory_id": "613bde02-dad8-5de0-a11a-20701ba817f6",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "584a1a5a-02f7-4a27-980f-6b3602e24870",
+      "edge_id": null
+    },
+    {
+      "id": "f3ddc72f-fd90-5b68-a63d-fea2909f3339",
+      "memory_id": "613bde02-dad8-5de0-a11a-20701ba817f6",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "82684fc4-a4bb-5a34-aa0d-54f59d34dee1",
+      "memory_id": "925e6ca1-a558-5075-a551-92b736a780cc",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "a229572b-aae2-461d-88ec-6c45c6bba721",
+      "edge_id": null
+    },
+    {
+      "id": "6ac31282-041a-5be3-a973-21c1cc9105f5",
+      "memory_id": "925e6ca1-a558-5075-a551-92b736a780cc",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "3343c705-3672-5445-a162-3d649429f1fe",
+      "memory_id": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "edge_id": null
+    },
+    {
+      "id": "45b95d4f-c2b7-57bc-ac9a-7a377c83a552",
+      "memory_id": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+      "edge_id": null
+    },
+    {
+      "id": "5af4c7eb-4330-5635-a0b1-b9fc2a87191f",
+      "memory_id": "3c7ff730-bdb9-520a-adab-b80a17745a50",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": null,
+      "edge_id": "7505154c-978a-59a0-a802-8abbd5debca3"
+    },
+    {
+      "id": "192813ba-32fa-5cc8-af3e-f90ea12f7527",
+      "memory_id": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "edge_id": null
+    },
+    {
+      "id": "34791d6c-d50f-5e8a-ad92-28af309c3c08",
+      "memory_id": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "4ef337df-349b-5929-a8a9-26f4e599d01f",
+      "edge_id": null
+    },
+    {
+      "id": "98868ca5-98b3-50be-a76f-8a5e1ffff5bb",
+      "memory_id": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+      "edge_id": null
+    },
+    {
+      "id": "9219e515-cb4d-52ef-a19c-41bd3822eff9",
+      "memory_id": "4ba51f83-8375-5a73-a61a-15a7017f0f8f",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": null,
+      "edge_id": "3f415176-ebeb-562e-ac3b-e1f28469263c"
+    },
+    {
+      "id": "5054698f-c2af-56ed-a83f-f27189b00fcb",
+      "memory_id": "5b0aa6b2-cf96-5c3a-a40f-f0290f91abe4",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "edge_id": null
+    },
+    {
+      "id": "9676b504-591a-5fef-a5db-74005e6a9c8f",
+      "memory_id": "5b0aa6b2-cf96-5c3a-a40f-f0290f91abe4",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "4ef337df-349b-5929-a8a9-26f4e599d01f",
+      "edge_id": null
+    },
+    {
+      "id": "19e711e8-ebb8-5225-a62c-25a68874f42b",
+      "memory_id": "c11af31a-76a0-501f-ad17-2f9835168b71",
+      "contributor_id": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "d6431ce1-6126-5021-a2e3-56ffb09cafe4",
+      "memory_id": "f974e12d-4162-5f57-a1e5-2da5e09bd47e",
+      "contributor_id": "54d2a843-200b-4a8f-b1d0-6fe280d1e527",
+      "node_id": "06f3db7e-ea88-477b-97fc-778c15d3cc77",
+      "edge_id": null
+    },
+    {
+      "id": "a4756371-53f4-5081-a4c1-644da14cdba3",
+      "memory_id": "d1e2bb3a-2f7a-5d90-a8e2-403a06cde2e9",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "e849dd3c-286a-5e3f-af5b-b8d046eda0aa",
+      "edge_id": null
+    },
+    {
+      "id": "9686caa3-c589-5761-ace6-a98210d32bf0",
+      "memory_id": "d1e2bb3a-2f7a-5d90-a8e2-403a06cde2e9",
+      "contributor_id": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+      "node_id": "1b0d3e7b-3820-548a-a262-bc4488b81b7b",
+      "edge_id": null
+    }
+  ],
+  "ids": {
+    "maya": "6ba867ac-36ef-432a-8306-1ce7f5df5289",
+    "david": "adc50d52-40d5-48d6-8ce5-804724c71c49",
+    "elena": "54d2a843-200b-4a8f-b1d0-6fe280d1e527"
+  }
+}

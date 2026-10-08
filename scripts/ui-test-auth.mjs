@@ -80,6 +80,7 @@ const server=http.createServer(async(req,res)=>{
   if(req.method==='PATCH')selected.forEach(row=>Object.assign(row,body));
   if(req.method==='DELETE')tables.set(name,table.filter(row=>!selected.includes(row)));
   if(url.searchParams.has('order')){const [key,direction]=url.searchParams.get('order').split('.');selected.sort((a,b)=>String(a[key]).localeCompare(String(b[key]))*(direction==='desc'?-1:1))}
+  if(url.searchParams.has('offset'))selected=selected.slice(Number(url.searchParams.get('offset')));
   if(url.searchParams.has('limit'))selected=selected.slice(0,Number(url.searchParams.get('limit')));
   res.setHeader('Content-Range',`0-${Math.max(0,selected.length-1)}/${selected.length}`);
   if(req.headers.accept?.includes('vnd.pgrst.object+json'))return selected.length===1?send(selected[0]):send({code:'PGRST116',details:'The result contains 0 rows'},406);

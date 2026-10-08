@@ -1,4 +1,13 @@
+pub mod admin;
+pub mod api;
+pub mod auth;
 pub mod config;
+pub mod database;
+pub mod error;
+pub mod faces;
 pub mod gate;
+pub mod ingestion;
 pub mod keepers;
+pub mod providers;
+pub mod recall;
 pub mod weaver;

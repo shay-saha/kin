@@ -1,7 +1,7 @@
 import { test, expect } from "./fixtures";
 import { createClient } from "@supabase/supabase-js";
 import { loadEnvConfig } from "@next/env";
-import { resetFamily } from "../lib/seed";
+
 import AxeBuilder from "@axe-core/playwright";
 
 // Authenticated HTTP/cookie flows against the loopback-only auth/data double.
@@ -114,7 +114,10 @@ test("sign in, create an empty family, invite a member, enforce ownership, and s
   } finally {
     await guest.close();
     if (familyId) {
-      await resetFamily(admin, familyId);
+      for (const table of ["weaver_questions", "recall_events", "ingestion_receipts", "face_embeddings", "memories", "graph_edges", "graph_nodes"]) {
+        const result = await admin.from(table).delete().eq("family_id", familyId);
+        if (result.error) throw result.error;
+      }
       const r = await admin.from("families").delete().eq("id", familyId);
       if (r.error) throw r.error;
     }
@@ -264,7 +267,10 @@ test("a loved-one invitation joins without a relationship and opens loved-one na
   } finally {
     await guest.close();
     if (familyId) {
-      await resetFamily(admin, familyId);
+      for (const table of ["weaver_questions", "recall_events", "ingestion_receipts", "face_embeddings", "memories", "graph_edges", "graph_nodes"]) {
+        const result = await admin.from(table).delete().eq("family_id", familyId);
+        if (result.error) throw result.error;
+      }
       const r = await admin.from("families").delete().eq("id", familyId);
       if (r.error) throw r.error;
     }
